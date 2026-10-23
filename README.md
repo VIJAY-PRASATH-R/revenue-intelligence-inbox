@@ -4,8 +4,10 @@ RevPulse AI is an enterprise-grade Revenue Intelligence application built for sa
 
 ---
 
-## 🚀 Live Deployed Application
-- **Direct Live Deployed URL**: [https://revpulse-intelligence.surge.sh](https://revpulse-intelligence.surge.sh) (Publicly accessible with zero permission barriers)
+## 🚀 Live Deployed Application & Repository
+- **Direct Live Deployed URL**: [https://vijay-prasath-r.github.io/revenue-intelligence-inbox/](https://vijay-prasath-r.github.io/revenue-intelligence-inbox/) (Publicly accessible with zero permission barriers)
+- **GitHub Repository**: [https://github.com/VIJAY-PRASATH-R/revenue-intelligence-inbox](https://github.com/VIJAY-PRASATH-R/revenue-intelligence-inbox)
+- **Alternative Live Tunnel**: [https://revpulse-inbox.loca.lt](https://revpulse-inbox.loca.lt)
 - **Local Development**: `npm run dev` (Runs locally on `http://localhost:5173`)
 
 ---
