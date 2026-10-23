@@ -1,0 +1,38 @@
+{
+  "schemaVersion": "2.4.0",
+  "exportId": "EXP-1792727098920",
+  "exportedAt": "2026-10-23T03:44:58.918Z",
+  "exportedBy": "Alex Mercer (Sales Director)",
+  "format": "JSON",
+  "targetFilename": "revpulse_intelligence_export_1792727098919.json",
+  "recordCount": 12,
+  "checksum": "sha256_aaaaaaaaaae1fb46",
+  "pipelineSummary": {
+    "totalPipelineValueUSD": 3735000,
+    "atRiskPipelineValueUSD": 1860000,
+    "atRiskDealsCount": 6,
+    "averageDealHealth": 64,
+    "routingBreakdown": {
+      "autoRouted": 11,
+      "conflictsDetected": 1,
+      "manualOverrides": 0
+    }
+  },
+  "filterCriteria": {
+    "appliedDateRange": "All Recorded Calls (Q3-Q4 2026)",
+    "includedStages": [
+      "Negotiation",
+      "Proposal",
+      "Technical Validation",
+      "Discovery",
+      "Security Review"
+    ],
+    "includedReps": [
+      "Sarah Chen",
+      "Marcus Vance",
+      "Elena Rostova",
+      "David Kim",
+      "Priya Patel"
+    ]
+  }
+}

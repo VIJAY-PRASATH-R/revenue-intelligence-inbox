@@ -1,0 +1,948 @@
+[
+  {
+    "id": "CALL-2026-101",
+    "meetingHash": "hash_acme_q3_expansion_101",
+    "title": "Q3 Enterprise License Expansion Sync",
+    "account": "Stark Industries",
+    "accountTier": "Tier 1 Enterprise",
+    "contactName": "James Rhodes",
+    "contactRole": "VP of Global Operations",
+    "contactEmail": "j.rhodes@starkindustries.corp",
+    "repAssigned": "Sarah Chen",
+    "dealValue": 320000,
+    "dealStage": "Negotiation",
+    "callDate": "2026-10-22T14:30:00Z",
+    "durationMinutes": 42,
+    "sentimentScore": 0.82,
+    "sentimentLabel": "Positive",
+    "dealHealth": 88,
+    "priority": "Medium",
+    "needsAttention": false,
+    "attentionReason": "Standard negotiation tracking; redlines expected Friday",
+    "routingStatus": "Auto-Routed",
+    "routingRule": "Domain match @starkindustries.corp -> Enterprise Rep Sarah Chen",
+    "routingConfidence": 0.98,
+    "competitorsMentioned": [
+      "Clari"
+    ],
+    "objections": [
+      {
+        "topic": "Payment terms",
+        "quote": "We standardly require Net 60 instead of Net 30 for any seven-figure multi-year commitment.",
+        "severity": "Low",
+        "status": "Open"
+      }
+    ],
+    "actionItems": [
+      {
+        "id": "act-1",
+        "text": "Send updated Redline with Net 45 compromise",
+        "owner": "Sarah Chen",
+        "completed": true
+      },
+      {
+        "id": "act-2",
+        "text": "Schedule technical procurement call with CFO team",
+        "owner": "Sarah Chen",
+        "completed": false
+      }
+    ],
+    "summary": "High buying intent. James confirmed executive committee signoff is budgeted for Q4. Primary item remaining is standard corporate MSA terms and Net 60 payment schedule.",
+    "transcript": [
+      {
+        "time": "00:04",
+        "speaker": "Sarah Chen (Rep)",
+        "text": "Thanks for jumping on today, James. Excited to align on the final expansion scope for the enterprise operations team."
+      },
+      {
+        "time": "01:15",
+        "speaker": "James Rhodes (VP Ops)",
+        "text": "Likewise Sarah. The pilot with our European team demonstrated a 24% reduction in sales onboarding time. That satisfied our EVP."
+      },
+      {
+        "time": "05:40",
+        "speaker": "James Rhodes (VP Ops)",
+        "text": "Our procurement team raised one point regarding payment terms: Stark standard is Net 60. Can your finance desk approve that?"
+      },
+      {
+        "time": "06:12",
+        "speaker": "Sarah Chen (Rep)",
+        "text": "Usually we approve Net 45 seamlessly for Tier 1 commitments. I will advocate for Net 60 with our CFO before Friday."
+      }
+    ],
+    "managerNotes": "Strong champion. Sarah handling well. Approved Net 60 if closed before Nov 1.",
+    "manualTags": [
+      "Executive Sponsor Aligned",
+      "Fast Track"
+    ],
+    "auditLog": [
+      {
+        "timestamp": "2026-10-22T15:15:00Z",
+        "user": "System (Ingestion Engine)",
+        "action": "Call auto-ingested via Zoom AI Connector v4.2"
+      },
+      {
+        "timestamp": "2026-10-22T16:00:00Z",
+        "user": "Alex Mercer (Sales Director)",
+        "action": "Added manager note: Approved Net 60 if closed before Nov 1"
+      }
+    ]
+  },
+  {
+    "id": "CALL-2026-104",
+    "meetingHash": "hash_acme_gong_threat_104",
+    "title": "Mid-Market Platform Renewal & Competitor Bake-off",
+    "account": "ACME Corporation",
+    "accountTier": "Mid-Market",
+    "contactName": "Daniel Vance",
+    "contactRole": "Head of Revenue Operations",
+    "contactEmail": "dvance@acmecorp.com",
+    "repAssigned": "Marcus Vance",
+    "dealValue": 145000,
+    "dealStage": "Proposal",
+    "callDate": "2026-10-22T10:00:00Z",
+    "durationMinutes": 38,
+    "sentimentScore": 0.36,
+    "sentimentLabel": "Negative",
+    "dealHealth": 42,
+    "priority": "High",
+    "needsAttention": true,
+    "attentionReason": "Severe competitor displacement risk (Gong aggressive 30% discount pitch)",
+    "routingStatus": "Auto-Routed",
+    "routingRule": "Domain match @acmecorp.com -> Mid-Market Rep Marcus Vance",
+    "routingConfidence": 0.94,
+    "competitorsMentioned": [
+      "Gong",
+      "Salesforce"
+    ],
+    "objections": [
+      {
+        "topic": "Competitor Price Under-cut",
+        "quote": "Gong came in with a bundled quote that includes conversation analytics and dialer at 30% lower than your current proposal.",
+        "severity": "Critical",
+        "status": "Open"
+      },
+      {
+        "topic": "Contract Duration Friction",
+        "quote": "We don't want to sign a 24-month contract while our RevOps team is restructuring.",
+        "severity": "Medium",
+        "status": "Open"
+      }
+    ],
+    "actionItems": [
+      {
+        "id": "act-1",
+        "text": "Prepare Gong competitive feature matrix highlighting our real-time coaching advantage",
+        "owner": "Marcus Vance",
+        "completed": false
+      },
+      {
+        "id": "act-2",
+        "text": "Review discretionary discounting with Sales Director",
+        "owner": "Marcus Vance",
+        "completed": false
+      }
+    ],
+    "summary": "Finding #1 Evidence: Daniel is heavily weighing a discount offer from Gong. RevOps is feeling internal pressure to consolidate vendors unless we can articulate clear ROI differentiation beyond standard transcription.",
+    "transcript": [
+      {
+        "time": "00:10",
+        "speaker": "Marcus Vance (Rep)",
+        "text": "Morning Daniel, let's walk through the proposal tiers we structured for ACME's renewal."
+      },
+      {
+        "time": "03:22",
+        "speaker": "Daniel Vance (Head of RevOps)",
+        "text": "Marcus, I have to be candid. Gong's rep presented our VP yesterday with an aggressive package. They're discounting 30% and throwing in dialer seats."
+      },
+      {
+        "time": "08:14",
+        "speaker": "Daniel Vance (Head of RevOps)",
+        "text": "Unless you can either get close to that per-seat number or prove significant workflow efficiency that saves rep hours, leadership will force the switch."
+      },
+      {
+        "time": "11:05",
+        "speaker": "Marcus Vance (Rep)",
+        "text": "Understood Daniel. Our pipeline auto-triage and deduplicated CRM syncing saves on average 4.2 hours per rep every week. Let me bring our Solutions Architect to demonstrate."
+      }
+    ],
+    "managerNotes": "CRITICAL: Do not simply discount. Marcus needs coaching on demonstrating our auto-routing and CRM audit protection. Schedule pre-call strategy session.",
+    "manualTags": [
+      "Competitor Threat",
+      "Price War",
+      "Needs Director Co-Call"
+    ],
+    "auditLog": [
+      {
+        "timestamp": "2026-10-22T10:45:00Z",
+        "user": "System (Ingestion Engine)",
+        "action": "Auto-routed to Marcus Vance based on Account ID #ACM-881"
+      },
+      {
+        "timestamp": "2026-10-22T11:10:00Z",
+        "user": "Alex Mercer (Sales Director)",
+        "action": "Flagged High Priority: Competitor Threat detected"
+      }
+    ]
+  },
+  {
+    "id": "CALL-2026-108",
+    "meetingHash": "hash_cyberdyne_champion_lost_108",
+    "title": "Quarterly Evaluation & Security Review",
+    "account": "Cyberdyne Systems",
+    "accountTier": "Tier 1 Enterprise",
+    "contactName": "Claire Bennett",
+    "contactRole": "Director of IT Procurement",
+    "contactEmail": "c.bennett@cyberdyne.ai",
+    "repAssigned": "Elena Rostova",
+    "dealValue": 410000,
+    "dealStage": "Technical Validation",
+    "callDate": "2026-10-21T16:00:00Z",
+    "durationMinutes": 29,
+    "sentimentScore": 0.28,
+    "sentimentLabel": "Critical Risk",
+    "dealHealth": 24,
+    "priority": "High",
+    "needsAttention": true,
+    "attentionReason": "Executive Champion VP Mark Henderson unexpectedly resigned; deal in jeopardy",
+    "routingStatus": "Auto-Routed",
+    "routingRule": "Domain match @cyberdyne.ai -> Strategic Enterprise Rep Elena Rostova",
+    "routingConfidence": 0.99,
+    "competitorsMentioned": [],
+    "objections": [
+      {
+        "topic": "Champion Departure & Freeze",
+        "quote": "Mark Henderson stepped down as VP of Infrastructure last Friday. All pending enterprise pilots are frozen until interim leadership reviews budget.",
+        "severity": "Critical",
+        "status": "Open"
+      },
+      {
+        "topic": "Lack of Stakeholder Breadth",
+        "quote": "Mark was the sole driver for this project. Nobody else on our steering committee has reviewed the evaluation scorecard.",
+        "severity": "High",
+        "status": "Open"
+      }
+    ],
+    "actionItems": [
+      {
+        "id": "act-1",
+        "text": "Map relationship matrix to identify interim VP of Infrastructure",
+        "owner": "Elena Rostova",
+        "completed": false
+      },
+      {
+        "id": "act-2",
+        "text": "Send business case recap to Claire Bennett and CFO office",
+        "owner": "Elena Rostova",
+        "completed": false
+      }
+    ],
+    "summary": "Finding #2 Evidence: Cyberdyne champion Mark Henderson has left the organization. Elena only had single-threaded executive buy-in. Deal stalled in Stage 3 without active senior sponsor.",
+    "transcript": [
+      {
+        "time": "00:05",
+        "speaker": "Elena Rostova (Rep)",
+        "text": "Hi Claire, hope you're having a productive week. Looking forward to reviewing the IT security checklist."
+      },
+      {
+        "time": "01:40",
+        "speaker": "Claire Bennett (IT Proc)",
+        "text": "Elena, I'm glad you called. There's been a major shakeup. Mark Henderson resigned unexpectedly on Friday."
+      },
+      {
+        "time": "02:15",
+        "speaker": "Elena Rostova (Rep)",
+        "text": "I'm shocked to hear that. Has an interim leader been appointed for Infrastructure?"
+      },
+      {
+        "time": "04:30",
+        "speaker": "Claire Bennett (IT Proc)",
+        "text": "The CTO is stepping in temporarily, but all pending evaluations without signed SOWs are paused indefinitely. We need to reset."
+      }
+    ],
+    "managerNotes": "Classic single-threading failure. Elena needs multi-threading playbook immediately. I am reaching out to their CTO via mutual board contact.",
+    "manualTags": [
+      "Champion Left",
+      "Single-Threaded",
+      "Deal Stalled"
+    ],
+    "auditLog": [
+      {
+        "timestamp": "2026-10-21T16:35:00Z",
+        "user": "System (Ingestion Engine)",
+        "action": "Auto-ingested call transcript"
+      },
+      {
+        "timestamp": "2026-10-21T17:00:00Z",
+        "user": "Alex Mercer (Sales Director)",
+        "action": "Downgraded Deal Health from 82 to 24; flagged Critical"
+      }
+    ]
+  },
+  {
+    "id": "CALL-2026-109",
+    "meetingHash": "hash_apex_nexus_routing_conflict_109",
+    "title": "Subsidiary Clinical Analytics Expansion Deep Dive",
+    "account": "Apex BioTech (Nexus Health Subsidiary)",
+    "accountTier": "Enterprise Group",
+    "contactName": "Dr. Evelyn Wu",
+    "contactRole": "Chief Medical Informatics Officer",
+    "contactEmail": "ewu@apexbio.org",
+    "repAssigned": "Marcus Vance",
+    "dealValue": 275000,
+    "dealStage": "Discovery",
+    "callDate": "2026-10-22T11:30:00Z",
+    "durationMinutes": 47,
+    "sentimentScore": 0.74,
+    "sentimentLabel": "Positive",
+    "dealHealth": 72,
+    "priority": "High",
+    "needsAttention": true,
+    "attentionReason": "Routing Conflict: Ambiguous parent-subsidiary account ownership",
+    "routingStatus": "Conflict Detected",
+    "routingRule": "Subsidiary Match vs Parent Master Agreement Rule Conflict",
+    "routingConfidence": 0.52,
+    "routingConflictDetails": {
+      "accountSubsidiary": "Apex BioTech (Mid-Market Rep Marcus Vance's assigned territory)",
+      "accountParent": "Nexus Health Global (Enterprise Rep Elena Rostova's assigned account)",
+      "conflictReason": "Apex BioTech was acquired by Nexus Health 60 days ago. Rep Marcus originated the inbound demo, but Elena holds the parent Master Services Agreement with enterprise quota credit rules.",
+      "candidateReps": [
+        {
+          "rep": "Marcus Vance",
+          "territory": "Mid-Market Life Sciences",
+          "justification": "Originated prospect contact, led initial discovery call, 14 hours invested"
+        },
+        {
+          "rep": "Elena Rostova",
+          "territory": "Strategic Healthcare",
+          "justification": "Holds Nexus Health Global master contract; parent terms mandate enterprise consolidation"
+        }
+      ],
+      "recommendedResolution": "Dual-Credit Split Routing (60% Marcus Vance execution / 40% Elena Rostova parent relationship) or Rep Transition Plan"
+    },
+    "competitorsMentioned": [
+      "HubSpot",
+      "Salesloft"
+    ],
+    "objections": [
+      {
+        "topic": "Procurement Consolidation",
+        "quote": "Our parent Nexus Health has central IT procurement, so we must adhere to their vendor risk matrix.",
+        "severity": "Medium",
+        "status": "Open"
+      }
+    ],
+    "actionItems": [
+      {
+        "id": "act-1",
+        "text": "Manager routing decision: Resolve account ownership dispute between Marcus & Elena",
+        "owner": "Sales Manager",
+        "completed": false
+      },
+      {
+        "id": "act-2",
+        "text": "Cross-reference Nexus Health MSA contract terms",
+        "owner": "Elena Rostova",
+        "completed": false
+      }
+    ],
+    "summary": "Difficult Routing Decision Case: High quality opportunity with Dr. Wu, but territory conflict between Mid-Market rep who prospected the subsidiary and Strategic rep who holds the parent MSA.",
+    "transcript": [
+      {
+        "time": "00:03",
+        "speaker": "Marcus Vance (Rep)",
+        "text": "Dr. Wu, thank you for inviting our team to present our clinical intelligence platform."
+      },
+      {
+        "time": "02:10",
+        "speaker": "Dr. Evelyn Wu (CMIO)",
+        "text": "Our clinical trials team at Apex has immediate budget. However, as you know, Nexus Health acquired our group two months ago."
+      },
+      {
+        "time": "06:40",
+        "speaker": "Dr. Evelyn Wu (CMIO)",
+        "text": "All software contracts over $100k have to flow through the Nexus Health global master portal, managed by their enterprise procurement team in Boston."
+      },
+      {
+        "time": "09:15",
+        "speaker": "Marcus Vance (Rep)",
+        "text": "That is great to know. We already partner closely with Nexus Health at the corporate level. We'll ensure full compliance with their standards."
+      }
+    ],
+    "managerNotes": "ROUTING DECISION PENDING: Met with Marcus and Elena. Recommending Co-Ownership: Marcus leads clinical workflow demo, Elena leads master legal/procurement alignment. 70/30 commission split approved.",
+    "manualTags": [
+      "Territory Conflict",
+      "Parent-Subsidiary",
+      "Manager Review Required"
+    ],
+    "auditLog": [
+      {
+        "timestamp": "2026-10-22T12:20:00Z",
+        "user": "Routing Engine v3.1",
+        "action": "Flagged rule conflict: Subsidiary email @apexbio.org matched Marcus, parent DUNS matched Elena"
+      },
+      {
+        "timestamp": "2026-10-22T13:00:00Z",
+        "user": "Alex Mercer (Sales Director)",
+        "action": "Assigned Co-Ownership review and scheduled mediation"
+      }
+    ]
+  },
+  {
+    "id": "CALL-2026-112",
+    "meetingHash": "hash_omniconsumer_soc2_blocker_112",
+    "title": "Architecture & Information Security Evaluation",
+    "account": "OmniConsumer Corp",
+    "accountTier": "Tier 1 Enterprise",
+    "contactName": "Sanjay Patel",
+    "contactRole": "Chief Information Security Officer",
+    "contactEmail": "s.patel@omniconsumer.net",
+    "repAssigned": "David Kim",
+    "dealValue": 390000,
+    "dealStage": "Security Review",
+    "callDate": "2026-10-20T15:00:00Z",
+    "durationMinutes": 52,
+    "sentimentScore": 0.31,
+    "sentimentLabel": "Negative",
+    "dealHealth": 35,
+    "priority": "High",
+    "needsAttention": true,
+    "attentionReason": "Finding #3: Critical SecOps objection regarding SOC2 Type II data retention lingering 14 days without solution",
+    "routingStatus": "Auto-Routed",
+    "routingRule": "Domain match @omniconsumer.net -> Enterprise Rep David Kim",
+    "routingConfidence": 0.97,
+    "competitorsMentioned": [
+      "Salesforce",
+      "Gong"
+    ],
+    "objections": [
+      {
+        "topic": "SOC2 Type II Audio Retention Policy",
+        "quote": "Our data sovereignty requirements mandate automated raw audio purging after 90 days with zero third-party model training. Your standard policy mentions 365 days.",
+        "severity": "Critical",
+        "status": "Open"
+      },
+      {
+        "topic": "Delayed Security Packet",
+        "quote": "We submitted the custom vendor questionnaire 14 business days ago and haven't received your architecture addendum.",
+        "severity": "Critical",
+        "status": "Open"
+      }
+    ],
+    "actionItems": [
+      {
+        "id": "act-1",
+        "text": "Escalate custom 90-day retention zero-training SLA to VP of InfoSec",
+        "owner": "David Kim",
+        "completed": false
+      },
+      {
+        "id": "act-2",
+        "text": "Complete remaining 12 sections of OmniConsumer SecOps questionnaire",
+        "owner": "Solutions Architect",
+        "completed": false
+      }
+    ],
+    "summary": "Finding #3 Evidence: Technical and security blocker stalled the $390k expansion for two full weeks. Rep David Kim failed to escalate data residency requirements to legal and InfoSec.",
+    "transcript": [
+      {
+        "time": "00:08",
+        "speaker": "David Kim (Rep)",
+        "text": "Hi Sanjay, thanks for making time to address our security questionnaire progress."
+      },
+      {
+        "time": "02:45",
+        "speaker": "Sanjay Patel (CISO)",
+        "text": "David, frankly I'm concerned. Two weeks ago we sent our data retention mandates. In healthcare tech, 90-day raw voice purge is non-negotiable."
+      },
+      {
+        "time": "06:12",
+        "speaker": "Sanjay Patel (CISO)",
+        "text": "If we don't have a legally binding DPA with zero-retention guarantee by Wednesday, our governance committee will disqualify this solution and renew Salesforce."
+      },
+      {
+        "time": "08:30",
+        "speaker": "David Kim (Rep)",
+        "text": "I apologize for the delay Sanjay. Our engineering team has a custom VPC deployment mode that solves this exact concern."
+      }
+    ],
+    "managerNotes": "Manager Intervention: Pulled our Principal Security Architect into this account. Fast-tracked custom DPA with Legal. Scheduled executive reassurance call with CISO Sanjay.",
+    "manualTags": [
+      "SecOps Blocker",
+      "Escalated to Legal",
+      "Churn Risk"
+    ],
+    "auditLog": [
+      {
+        "timestamp": "2026-10-20T16:00:00Z",
+        "user": "System (Ingestion Engine)",
+        "action": "Auto-ingested SecOps review call"
+      },
+      {
+        "timestamp": "2026-10-21T09:00:00Z",
+        "user": "Alex Mercer (Sales Director)",
+        "action": "Manual tag added: Escalated to Legal; Priority elevated to High"
+      }
+    ]
+  },
+  {
+    "id": "CALL-2026-102",
+    "meetingHash": "hash_piedpiper_expansion_102",
+    "title": "Mid-Market Video Compression AI Pilot Kickoff",
+    "account": "Pied Piper",
+    "accountTier": "Growth Mid-Market",
+    "contactName": "Richard Hendricks",
+    "contactRole": "Chief Technology Officer",
+    "contactEmail": "richard@piedpiper.io",
+    "repAssigned": "Priya Patel",
+    "dealValue": 180000,
+    "dealStage": "Proposal",
+    "callDate": "2026-10-22T13:00:00Z",
+    "durationMinutes": 35,
+    "sentimentScore": 0.88,
+    "sentimentLabel": "Positive",
+    "dealHealth": 91,
+    "priority": "Low",
+    "needsAttention": false,
+    "attentionReason": "Flawless technical POC; fast-moving mid-market deal",
+    "routingStatus": "Auto-Routed",
+    "routingRule": "Domain match @piedpiper.io -> Mid-Market Rep Priya Patel",
+    "routingConfidence": 0.99,
+    "competitorsMentioned": [],
+    "objections": [],
+    "actionItems": [
+      {
+        "id": "act-1",
+        "text": "Send revised proposal with Tier 2 API compute tier",
+        "owner": "Priya Patel",
+        "completed": true
+      },
+      {
+        "id": "act-2",
+        "text": "Prepare Order Form for signature",
+        "owner": "Priya Patel",
+        "completed": false
+      }
+    ],
+    "summary": "Extremely strong technical alignment. Richard praised the low latency of the voice transcription ingestion pipeline. Contract expected to close next sprint.",
+    "transcript": [
+      {
+        "time": "00:02",
+        "speaker": "Priya Patel (Rep)",
+        "text": "Richard, how did the weekend benchmark test perform on the test stream?"
+      },
+      {
+        "time": "01:20",
+        "speaker": "Richard Hendricks (CTO)",
+        "text": "The latency was incredible. Under 280ms end-to-end. Your API handles burst traffic better than anything we tested."
+      },
+      {
+        "time": "03:45",
+        "speaker": "Richard Hendricks (CTO)",
+        "text": "Send the final paperwork with the developer add-on. We are ready to sign."
+      }
+    ],
+    "managerNotes": "Model deal execution. Priya doing fantastic work. Potential case study candidate for Q1 marketing.",
+    "manualTags": [
+      "Champion Enthusiastic",
+      "Target Close This Month"
+    ],
+    "auditLog": [
+      {
+        "timestamp": "2026-10-22T13:40:00Z",
+        "user": "System (Ingestion Engine)",
+        "action": "Auto-ingested call transcript"
+      }
+    ]
+  },
+  {
+    "id": "CALL-2026-103",
+    "meetingHash": "hash_hooli_migration_103",
+    "title": "Hooli Enterprise Cloud Migration Review",
+    "account": "Hooli Corporation",
+    "accountTier": "Tier 1 Enterprise",
+    "contactName": "Gavin Belson",
+    "contactRole": "Chief Executive Officer",
+    "contactEmail": "gbelson@hooli.xyz",
+    "repAssigned": "Sarah Chen",
+    "dealValue": 520000,
+    "dealStage": "Discovery",
+    "callDate": "2026-10-21T11:00:00Z",
+    "durationMinutes": 25,
+    "sentimentScore": 0.45,
+    "sentimentLabel": "Neutral",
+    "dealHealth": 58,
+    "priority": "Medium",
+    "needsAttention": true,
+    "attentionReason": "Executive ego and complex proprietary format demands",
+    "routingStatus": "Auto-Routed",
+    "routingRule": "Domain match @hooli.xyz -> Enterprise Rep Sarah Chen",
+    "routingConfidence": 0.96,
+    "competitorsMentioned": [
+      "Salesforce",
+      "Google Cloud"
+    ],
+    "objections": [
+      {
+        "topic": "Proprietary Architecture Demands",
+        "quote": "Our Nucleus system requires a customized on-prem protocol rather than your multi-tenant SaaS.",
+        "severity": "High",
+        "status": "Open"
+      }
+    ],
+    "actionItems": [
+      {
+        "id": "act-1",
+        "text": "Confirm single-tenant dedicated cluster pricing tier",
+        "owner": "Sarah Chen",
+        "completed": false
+      }
+    ],
+    "summary": "Large deal size ($520k) with high technical complexity. Gavin emphasized bespoke integration demands. Needs senior solutions architect on next touchpoint.",
+    "transcript": [
+      {
+        "time": "00:15",
+        "speaker": "Sarah Chen (Rep)",
+        "text": "Good morning Mr. Belson. We appreciate the opportunity to discuss Hooli's enterprise communications stack."
+      },
+      {
+        "time": "02:00",
+        "speaker": "Gavin Belson (CEO)",
+        "text": "I do not want another generic SaaS tool. We require a system that understands the scale of Hooli Nucleus."
+      }
+    ],
+    "managerNotes": "High risk, high reward. Sarah to hold firm on SaaS margins and not commit to non-standard custom engineering without approval.",
+    "manualTags": [
+      "Executive Call",
+      "Custom Spec Demand"
+    ],
+    "auditLog": [
+      {
+        "timestamp": "2026-10-21T11:35:00Z",
+        "user": "System (Ingestion Engine)",
+        "action": "Auto-ingested call transcript"
+      }
+    ]
+  },
+  {
+    "id": "CALL-2026-105",
+    "meetingHash": "hash_massive_dynamic_contract_105",
+    "title": "Massive Dynamic Security & Compliance Check",
+    "account": "Massive Dynamic",
+    "accountTier": "Tier 1 Enterprise",
+    "contactName": "Nina Sharp",
+    "contactRole": "Chief Operating Officer",
+    "contactEmail": "nsharp@massivedynamic.org",
+    "repAssigned": "Elena Rostova",
+    "dealValue": 340000,
+    "dealStage": "Proposal",
+    "callDate": "2026-10-20T14:00:00Z",
+    "durationMinutes": 44,
+    "sentimentScore": 0.65,
+    "sentimentLabel": "Neutral",
+    "dealHealth": 70,
+    "priority": "Medium",
+    "needsAttention": false,
+    "attentionReason": "Standard enterprise security diligence progressing",
+    "routingStatus": "Auto-Routed",
+    "routingRule": "Domain match @massivedynamic.org -> Strategic Rep Elena Rostova",
+    "routingConfidence": 0.98,
+    "competitorsMentioned": [
+      "Clari"
+    ],
+    "objections": [
+      {
+        "topic": "Implementation Timeframe",
+        "quote": "Our IT department has a freeze scheduled for December. Can rollout happen in 30 days?",
+        "severity": "Medium",
+        "status": "Open"
+      }
+    ],
+    "actionItems": [
+      {
+        "id": "act-1",
+        "text": "Share 30-day accelerated deployment blueprint",
+        "owner": "Elena Rostova",
+        "completed": true
+      }
+    ],
+    "summary": "Nina confirmed interest in consolidating conversation intelligence and deal forecasting. Timeline constraints remain primary concern.",
+    "transcript": [
+      {
+        "time": "00:10",
+        "speaker": "Elena Rostova (Rep)",
+        "text": "Nina, let's address the implementation milestones you requested."
+      },
+      {
+        "time": "03:15",
+        "speaker": "Nina Sharp (COO)",
+        "text": "If we sign by Nov 1, we must guarantee user onboarding completes before our end-of-year enterprise change freeze."
+      }
+    ],
+    "managerNotes": "Onboarding team committed to 21-day expedited rollout if contract executed before Nov 5.",
+    "manualTags": [
+      "Timeline Sensitive"
+    ],
+    "auditLog": [
+      {
+        "timestamp": "2026-10-20T15:00:00Z",
+        "user": "System (Ingestion Engine)",
+        "action": "Auto-ingested call transcript"
+      }
+    ]
+  },
+  {
+    "id": "CALL-2026-106",
+    "meetingHash": "hash_wayne_enterprises_renewal_106",
+    "title": "Wayne Enterprises Global Renewal & Voice AI Add-on",
+    "account": "Wayne Enterprises",
+    "accountTier": "Tier 1 Enterprise",
+    "contactName": "Lucius Fox",
+    "contactRole": "Chief Technology Officer",
+    "contactEmail": "lfox@wayne-enterprises.com",
+    "repAssigned": "David Kim",
+    "dealValue": 480000,
+    "dealStage": "Negotiation",
+    "callDate": "2026-10-19T16:00:00Z",
+    "durationMinutes": 50,
+    "sentimentScore": 0.91,
+    "sentimentLabel": "Positive",
+    "dealHealth": 94,
+    "priority": "Low",
+    "needsAttention": false,
+    "attentionReason": "Executive champion fully aligned; procurement approved",
+    "routingStatus": "Auto-Routed",
+    "routingRule": "Domain match @wayne-enterprises.com -> Enterprise Rep David Kim",
+    "routingConfidence": 0.99,
+    "competitorsMentioned": [],
+    "objections": [],
+    "actionItems": [
+      {
+        "id": "act-1",
+        "text": "Deliver final countersigned enterprise contract",
+        "owner": "David Kim",
+        "completed": true
+      }
+    ],
+    "summary": "Smooth negotiation. Lucius approved adding Real-time Agent Assist across 800 seats globally. Slated for signature by close of week.",
+    "transcript": [
+      {
+        "time": "00:08",
+        "speaker": "David Kim (Rep)",
+        "text": "Lucius, great connecting again. We integrated all feedback from your legal team."
+      },
+      {
+        "time": "02:30",
+        "speaker": "Lucius Fox (CTO)",
+        "text": "Everything looks in order, Mr. Kim. Our security audit passed cleanly. I have greenlit the agreement."
+      }
+    ],
+    "managerNotes": "Marquee account win. Ready to book revenue.",
+    "manualTags": [
+      "Verbal Agreement",
+      "Enterprise Marquee"
+    ],
+    "auditLog": [
+      {
+        "timestamp": "2026-10-19T17:00:00Z",
+        "user": "System (Ingestion Engine)",
+        "action": "Auto-ingested call transcript"
+      }
+    ]
+  },
+  {
+    "id": "CALL-2026-107",
+    "meetingHash": "hash_tyrell_corp_retention_107",
+    "title": "Tyrell Bio-Robotics Churn Prevention Call",
+    "account": "Tyrell Corporation",
+    "accountTier": "Mid-Market",
+    "contactName": "Dr. Eldon Tyrell",
+    "contactRole": "Head of Research",
+    "contactEmail": "etyrell@tyrellcorp.com",
+    "repAssigned": "Priya Patel",
+    "dealValue": 120000,
+    "dealStage": "Technical Validation",
+    "callDate": "2026-10-18T10:00:00Z",
+    "durationMinutes": 33,
+    "sentimentScore": 0.41,
+    "sentimentLabel": "Negative",
+    "dealHealth": 48,
+    "priority": "Medium",
+    "needsAttention": true,
+    "attentionReason": "Low active rep seat adoption over past 90 days",
+    "routingStatus": "Auto-Routed",
+    "routingRule": "Domain match @tyrellcorp.com -> Mid-Market Rep Priya Patel",
+    "routingConfidence": 0.97,
+    "competitorsMentioned": [
+      "HubSpot"
+    ],
+    "objections": [
+      {
+        "topic": "User Adoption Drop",
+        "quote": "Our junior researchers find the UI clunky compared to the lightweight tools they were using previously.",
+        "severity": "High",
+        "status": "Open"
+      }
+    ],
+    "actionItems": [
+      {
+        "id": "act-1",
+        "text": "Deliver custom end-user training webinar",
+        "owner": "Priya Patel",
+        "completed": false
+      }
+    ],
+    "summary": "Adoption challenge identified early. Customer success manager needs to partner with Priya to run interactive enablement sessions.",
+    "transcript": [
+      {
+        "time": "00:05",
+        "speaker": "Priya Patel (Rep)",
+        "text": "Dr. Tyrell, we noticed login frequency dipped slightly across the research division."
+      },
+      {
+        "time": "01:50",
+        "speaker": "Dr. Eldon Tyrell",
+        "text": "The team feels there are too many fields to complete after each call. We need a simpler workflow."
+      }
+    ],
+    "managerNotes": "CSM tagged. Action plan in place for Monday training.",
+    "manualTags": [
+      "Adoption Risk",
+      "Enablement Needed"
+    ],
+    "auditLog": [
+      {
+        "timestamp": "2026-10-18T11:00:00Z",
+        "user": "System (Ingestion Engine)",
+        "action": "Auto-ingested call transcript"
+      }
+    ]
+  },
+  {
+    "id": "CALL-2026-110",
+    "meetingHash": "hash_initech_automation_110",
+    "title": "Initech Sales Operations Efficiency Sync",
+    "account": "Initech LLC",
+    "accountTier": "Mid-Market",
+    "contactName": "Peter Gibbons",
+    "contactRole": "Sales Lead",
+    "contactEmail": "peter@initech.net",
+    "repAssigned": "Marcus Vance",
+    "dealValue": 95000,
+    "dealStage": "Proposal",
+    "callDate": "2026-10-17T14:00:00Z",
+    "durationMinutes": 28,
+    "sentimentScore": 0.79,
+    "sentimentLabel": "Positive",
+    "dealHealth": 85,
+    "priority": "Low",
+    "needsAttention": false,
+    "attentionReason": "Frustrated with manual TPS reporting; excited by auto-logging",
+    "routingStatus": "Auto-Routed",
+    "routingRule": "Domain match @initech.net -> Mid-Market Rep Marcus Vance",
+    "routingConfidence": 0.99,
+    "competitorsMentioned": [],
+    "objections": [],
+    "actionItems": [
+      {
+        "id": "act-1",
+        "text": "Send auto-logging demo video to Peter",
+        "owner": "Marcus Vance",
+        "completed": true
+      }
+    ],
+    "summary": "Peter is eager to eliminate manual CRM notes and redundant weekly status reports. Proposal delivered with standard terms.",
+    "transcript": [
+      {
+        "time": "00:10",
+        "speaker": "Marcus Vance (Rep)",
+        "text": "Peter, let me show you how our system auto-populates CRM opportunities without manual typing."
+      },
+      {
+        "time": "01:30",
+        "speaker": "Peter Gibbons (Lead)",
+        "text": "If this means I never have to fill out another TPS cover sheet for sales meetings, you have my vote right now."
+      }
+    ],
+    "managerNotes": "High probability close for Marcus. Low friction.",
+    "manualTags": [
+      "High Intent",
+      "TPS Automation"
+    ],
+    "auditLog": [
+      {
+        "timestamp": "2026-10-17T14:40:00Z",
+        "user": "System (Ingestion Engine)",
+        "action": "Auto-ingested call transcript"
+      }
+    ]
+  },
+  {
+    "id": "CALL-2026-111",
+    "meetingHash": "hash_umbrella_corp_compliance_111",
+    "title": "Umbrella Bio-Pharmaceuticals Architecture Alignment",
+    "account": "Umbrella Corporation",
+    "accountTier": "Tier 1 Enterprise",
+    "contactName": "Albert Wesker",
+    "contactRole": "VP of Global Strategic Programs",
+    "contactEmail": "a.wesker@umbrellacorp.com",
+    "repAssigned": "Sarah Chen",
+    "dealValue": 460000,
+    "dealStage": "Technical Validation",
+    "callDate": "2026-10-16T11:00:00Z",
+    "durationMinutes": 45,
+    "sentimentScore": 0.52,
+    "sentimentLabel": "Neutral",
+    "dealHealth": 63,
+    "priority": "Medium",
+    "needsAttention": false,
+    "attentionReason": "Heavy security audit and proprietary encryption requirements",
+    "routingStatus": "Auto-Routed",
+    "routingRule": "Domain match @umbrellacorp.com -> Enterprise Rep Sarah Chen",
+    "routingConfidence": 0.97,
+    "competitorsMentioned": [
+      "Salesforce"
+    ],
+    "objections": [
+      {
+        "topic": "End-to-End Key Management",
+        "quote": "We require Bring-Your-Own-Key (BYOK) encryption for all transcript storage.",
+        "severity": "High",
+        "status": "Open"
+      }
+    ],
+    "actionItems": [
+      {
+        "id": "act-1",
+        "text": "Confirm BYOK AWS KMS compatibility with Cloud Architect",
+        "owner": "Sarah Chen",
+        "completed": false
+      }
+    ],
+    "summary": "High enterprise value ($460k). Security team requires BYOK encryption keys. Technical proof of concept progressing according to milestone plan.",
+    "transcript": [
+      {
+        "time": "00:08",
+        "speaker": "Sarah Chen (Rep)",
+        "text": "Albert, our enterprise tier fully supports AWS KMS customer-managed key encryption."
+      },
+      {
+        "time": "03:10",
+        "speaker": "Albert Wesker",
+        "text": "Ensure that is documented in the technical architecture appendix. Our infosec auditors leave nothing to chance."
+      }
+    ],
+    "managerNotes": "Sarah staying on top of technical diligence. Legal team reviewing BYOK appendix.",
+    "manualTags": [
+      "Enterprise Security",
+      "BYOK Requirement"
+    ],
+    "auditLog": [
+      {
+        "timestamp": "2026-10-16T12:00:00Z",
+        "user": "System (Ingestion Engine)",
+        "action": "Auto-ingested call transcript"
+      }
+    ]
+  }
+]

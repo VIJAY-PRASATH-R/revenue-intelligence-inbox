@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Revenue Intelligence Inbox — Executive Presentation (5 Slides)</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #f8fafc;
+      color: #0f172a;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      padding: 2rem;
+    }
+    .presentation-container {
+      max-width: 960px;
+      width: 100%;
+      background: #ffffff;
+      border: 1px solid #e2e8f0;
+      border-radius: 12px;
+      box-shadow: 0 10px 25px -5px rgba(0,0,0,0.06);
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      min-height: 540px;
+    }
+    .slide-header {
+      padding: 1.25rem 2rem;
+      border-bottom: 1px solid #e2e8f0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: #ffffff;
+    }
+    .slide-brand {
+      font-size: 0.85rem;
+      font-weight: 700;
+      color: #2563eb;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+    .slide-counter {
+      font-size: 0.8rem;
+      color: #64748b;
+      font-weight: 600;
+    }
+    .slide-body {
+      padding: 2.25rem 2.5rem;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .slide-title {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-size: 1.6rem;
+      font-weight: 700;
+      color: #020617;
+      margin-bottom: 1.5rem;
+      line-height: 1.3;
+    }
+    .content-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.5rem;
+      margin-bottom: 1.5rem;
+    }
+    .box {
+      background: #f8fafc;
+      border: 1px solid #e2e8f0;
+      border-radius: 8px;
+      padding: 1.25rem;
+    }
+    .box-title {
+      font-size: 0.9rem;
+      font-weight: 600;
+      color: #0f172a;
+      margin-bottom: 0.75rem;
+    }
+    ul {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 0.55rem;
+      font-size: 0.825rem;
+      color: #475569;
+    }
+    li {
+      display: flex;
+      gap: 0.45rem;
+      line-height: 1.45;
+    }
+    li::before {
+      content: '•';
+      color: #2563eb;
+      font-weight: bold;
+    }
+    .takeaway-bar {
+      background: #eff6ff;
+      border: 1px solid #bfdbfe;
+      border-radius: 6px;
+      padding: 0.75rem 1.25rem;
+      font-size: 0.825rem;
+      color: #1e40af;
+      display: flex;
+      gap: 0.5rem;
+      align-items: center;
+    }
+    .slide-footer {
+      padding: 1rem 2rem;
+      border-top: 1px solid #e2e8f0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: #f8fafc;
+    }
+    .nav-btn {
+      padding: 0.45rem 1rem;
+      background: #ffffff;
+      border: 1px solid #cbd5e1;
+      border-radius: 6px;
+      color: #0f172a;
+      font-size: 0.825rem;
+      font-weight: 600;
+      cursor: pointer;
+    }
+    .nav-btn:hover { background: #e2e8f0; }
+    .nav-btn.primary { background: #2563eb; color: #ffffff; border-color: #2563eb; }
+    .nav-btn.primary:hover { background: #1d4ed8; }
+    .dots { display: flex; gap: 0.4rem; }
+    .dot { width: 8px; height: 8px; border-radius: 50%; background: #cbd5e1; cursor: pointer; }
+    .dot.active { background: #2563eb; width: 20px; border-radius: 10px; }
+  </style>
+</head>
+<body>
+
+<div class="presentation-container">
+  <div class="slide-header">
+    <div class="slide-brand">RevPulse AI • Executive Report</div>
+    <div class="slide-counter" id="slide-num">Slide 1 of 5</div>
+  </div>
+
+  <div class="slide-body">
+    <div>
+      <h1 class="slide-title" id="title">Revenue Intelligence: Autonomous Triage & Pipeline Visibility</h1>
+      <div class="content-grid">
+        <div class="box">
+          <div class="box-title" id="box1-title">The Problem for Sales Leadership</div>
+          <ul id="box1-items">
+            <li>Sales leaders lack visibility across 50+ hours of weekly recorded sales conversations.</li>
+            <li>Crucial deal friction signals (competitor price cuts, champion turnover, SecOps delays) remain buried in raw audio.</li>
+            <li>Ambiguous territory routing causes lead decay, commission disputes, and fractured customer touchpoints.</li>
+          </ul>
+        </div>
+        <div class="box">
+          <div class="box-title" id="box2-title">The RevPulse Intelligence Architecture</div>
+          <ul id="box2-items">
+            <li>Centralized Revenue Inbox: Live health scores, sentiment ratings, and prioritized risk queues.</li>
+            <li>Deterministic + Heuristic Routing: Automatically resolves territory assignments and surfaces multi-entity conflicts.</li>
+            <li>Safe-Merge Ingestion: Ingests repeated webhooks and updates without overwriting manager coaching notes.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="takeaway-bar">
+      <strong>Strategic Takeaway:</strong>
+      <span id="takeaway">RevPulse consolidates conversation signals, arbitrates routing conflicts, and protects manager annotations under high-frequency updates.</span>
+    </div>
+  </div>
+
+  <div class="slide-footer">
+    <button class="nav-btn" id="prev-btn" onclick="prevSlide()">Previous</button>
+    <div class="dots" id="dots-container"></div>
+    <button class="nav-btn primary" id="next-btn" onclick="nextSlide()">Next</button>
+  </div>
+</div>
+
+<script>
+  const slides = [
+    {
+      num: "Slide 1 of 5",
+      title: "Revenue Intelligence: Autonomous Triage & Pipeline Visibility",
+      box1Title: "The Problem for Sales Leadership",
+      box1Items: [
+        "Sales leaders lack visibility across 50+ hours of weekly recorded sales conversations.",
+        "Crucial deal friction signals (competitor price cuts, champion turnover, SecOps delays) remain buried in raw audio.",
+        "Ambiguous territory routing causes lead decay, commission disputes, and fractured customer touchpoints."
+      ],
+      box2Title: "The RevPulse Intelligence Architecture",
+      box2Items: [
+        "Centralized Revenue Inbox: Live health scores, sentiment ratings, and prioritized risk queues.",
+        "Deterministic + Heuristic Routing: Automatically resolves territory assignments and surfaces multi-entity conflicts.",
+        "Safe-Merge Ingestion: Ingests repeated webhooks and updates without overwriting manager coaching notes."
+      ],
+      takeaway: "RevPulse consolidates conversation signals, arbitrates routing conflicts, and protects manager annotations under high-frequency updates."
+    },
+    {
+      num: "Slide 2 of 5",
+      title: "Pipeline Analytics, Call Sentiment Velocity & Objection Breakdown",
+      box1Title: "Deal Health & Pipeline Volume",
+      box1Items: [
+        "Total Pipeline Under Review: $4,825,000 across 11 active accounts.",
+        "At-Risk Pipeline Flagged: $890,000 (18.5% of total active pipeline) requiring immediate manager intervention.",
+        "Average Portfolio Health: 72/100, weighted on stage velocity and prospect sentiment.",
+        "Rep Coaching Velocity: +18% WoW increase in actionable manager interventions."
+      ],
+      box2Title: "Dominant Objection Clusters",
+      box2Items: [
+        "32% Competitor Displacement: Aggressive price cuts from Gong and Salesforce bundling.",
+        "28% Security & Compliance: SOC2 Type II raw audio retention and customer key demands.",
+        "22% Champion Departure: Deals stalled due to single-threaded executive sponsorship.",
+        "18% End-User Adoption: Friction in rep UI onboarding in commercial segments."
+      ],
+      takeaway: "Real-time visibility separates healthy pipeline momentum from silent stalled opportunities before quarter-end."
+    },
+    {
+      num: "Slide 3 of 5",
+      title: "Territory Routing Architecture & The Difficult Multi-Entity Case Study",
+      box1Title: "The Routing Engine Hierarchy",
+      box1Items: [
+        "Tier 1: Inbound Domain & Email Match (98%+ confidence matching).",
+        "Tier 2: Named Account & Territory Logic (Commercial vs Strategic Enterprise).",
+        "Tier 3: Conflict Arbitration Gate (Flags M&A acquisitions, parent-child structures, and multi-rep claims)."
+      ],
+      box2Title: "Difficult Routing Case Study: Call #109 (Apex Bio vs. Nexus Health)",
+      box2Items: [
+        "The Dilemma: Apex BioTech ($275k expansion) was acquired 60 days ago by Nexus Health Global.",
+        "Marcus Vance (Mid-Market AE) spent 14 hours outbound prospecting and hosted the clinical CMIO demo.",
+        "Elena Rostova (Enterprise Director) holds the parent Nexus Health Master MSA agreement.",
+        "Resolution Decision: Approved Dual-Credit Co-Ownership (60% Marcus execution / 40% Elena procurement alignment)."
+      ],
+      takeaway: "Dual-Credit Co-Ownership prevents rep demoralization for outbound hunting while preserving enterprise contract compliance."
+    },
+    {
+      num: "Slide 4 of 5",
+      title: "Deduplication, Upsert Rules & Manual Correction Integrity",
+      box1Title: "The Ingestion Challenge",
+      box1Items: [
+        "Repeated Zoom/Teams webhooks and CRM syncs push re-processed audio and revised transcripts daily.",
+        "Standard CRM sync engines blindly overwrite existing rows, obliterating hours of manager coaching notes and custom tags.",
+        "RevPulse introduces an Idempotent Checksum Fingerprint (chk_hash) and Safe-Merge Protocol."
+      ],
+      box2Title: "Live Test Verification Results",
+      box2Items: [
+        "Test 1 (Identical Duplicate): Re-importing Call #101 results in 0 state mutations; logged as DUPLICATE_IDENTICAL.",
+        "Test 2 (Duplicate with Payload Updates): Ingesting updated Call #101 updates deal value ($345k) and transcript, while 100% of manager notes and custom tags stay intact.",
+        "Audit Trail Integrity: Every merge logs exact field deltas and counts preserved corrections."
+      ],
+      takeaway: "The Safe-Merge Engine provides mathematical guarantees that sales leadership coaching and tag corrections are never erased."
+    },
+    {
+      num: "Slide 5 of 5",
+      title: "Three Source-Linked Findings & One Rejected Architectural Decision",
+      box1Title: "Three Important Findings (Linked to Evidence)",
+      box1Items: [
+        "Finding 1 (Competitor Friction): ACME Corp [Call #104] — Gong offering 30% discount; reps coached on RevPulse auto-triage ROI instead of margin cuts.",
+        "Finding 2 (Champion Loss): Cyberdyne Systems [Call #108] — VP Mark Henderson resigned; deal stalled in Stage 3 due to single-threading.",
+        "Finding 3 (SecOps Blocker): OmniConsumer [Call #112] — 14-day delay on SOC2 audio retention questionnaire; created 48h InfoSec escalation SLA."
+      ],
+      box2Title: "One Considered & Rejected Decision",
+      box2Items: [
+        "Considered: Fully autonomous AI auto-rerouting of conflict calls using LLM predictions without human confirmation.",
+        "Rejected Because: Enterprise commission disputes and incorrect CRM re-parenting cause severe rep attrition and sales chaos.",
+        "Adopted Instead: AI Recommendation + Confidence Scoring (<0.85 triggers Conflict Queue) + One-Click Manager Audit Gate."
+      ],
+      takeaway: "High-stakes revenue intelligence demands AI-accelerated recommendations paired with accountable human-in-the-loop governance."
+    }
+  ];
+
+  let current = 0;
+
+  function renderSlide() {
+    const s = slides[current];
+    document.getElementById("slide-num").innerText = s.num;
+    document.getElementById("title").innerText = s.title;
+    document.getElementById("box1-title").innerText = s.box1Title;
+    document.getElementById("box2-title").innerText = s.box2Title;
+    document.getElementById("takeaway").innerText = s.takeaway;
+
+    document.getElementById("box1-items").innerHTML = s.box1Items.map(i => `<li>${i}</li>`).join("");
+    document.getElementById("box2-items").innerHTML = s.box2Items.map(i => `<li>${i}</li>`).join("");
+
+    document.getElementById("prev-btn").disabled = current === 0;
+    document.getElementById("next-btn").disabled = current === slides.length - 1;
+
+    const dots = document.getElementById("dots-container");
+    dots.innerHTML = slides.map((_, idx) => `<div class="dot ${idx === current ? 'active' : ''}" onclick="goTo(${idx})"></div>`).join("");
+  }
+
+  function nextSlide() { if (current < slides.length - 1) { current++; renderSlide(); } }
+  function prevSlide() { if (current > 0) { current--; renderSlide(); } }
+  function goTo(idx) { current = idx; renderSlide(); }
+
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "ArrowRight" || e.key === " ") nextSlide();
+    if (e.key === "ArrowLeft") prevSlide();
+  });
+
+  renderSlide();
+</script>
+</body>
+</html>
